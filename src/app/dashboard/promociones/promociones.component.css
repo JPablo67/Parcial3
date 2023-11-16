@@ -1,0 +1,15 @@
+.container {
+    margin-left: -150px;
+  }
+  
+  .discount-message {
+    background-color: #ffc107; /* Color de fondo */
+    color: #000; /* Color del texto */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    position: absolute; /* Posición absoluta */
+    top: 10px; /* Ajuste la posición desde arriba */
+    right: 10px; /* Ajuste la posición desde la derecha */
+    z-index: 1; /* Coloque sobre la tarjeta */
+  }

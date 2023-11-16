@@ -1,0 +1,18 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4" *ngFor="let game of videogames">
+        <div class="card">
+          <img [src]="game.image" class="card-img-top" alt="Game Image">
+          <div class="card-body">
+            <h5 class="card-title">{{ game.nombre }}</h5>
+            <p class="card-text">Launch Date: {{ game.launchDate }}</p>
+            <p class="card-text">Price: ${{ game.price }}</p>
+            <p class="card-text">Minimum Age: {{ game.minAge }}</p>
+            <div class="discount-message">20% Discount!</div> <!-- Mensaje de descuento -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
